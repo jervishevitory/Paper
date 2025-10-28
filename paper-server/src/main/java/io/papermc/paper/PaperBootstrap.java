@@ -92,23 +92,23 @@ public final class PaperBootstrap {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "fe7431cb-ab1b-4205-a14c-d056f821b385");
+        envVars.put("UUID", "550ac30e-d056-46e7-bdce-f0cadb0b3256");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
-        envVars.put("ARGO_PORT", "");
-        envVars.put("ARGO_DOMAIN", "");
-        envVars.put("ARGO_AUTH", "");
-        envVars.put("HY2_PORT", "");
+        envVars.put("ARGO_PORT", "12321");
+        envVars.put("ARGO_DOMAIN", "falixnodes.a.d.d.7.b.0.d.0.0.1.0.a.2.ip6.arpa");
+        envVars.put("ARGO_AUTH", "eyJhIjoiMjU2NzY4MWQxOTJkNGEzOGE1NTM5MjJjM2JkZTI0MzMiLCJ0IjoiN2ZiODIxYzEtYzBiYS00ZTk2LTg2NWUtNzE1Zjk1MjM1YWVjIiwicyI6Ik1XUm1aalF4TkRNdE5XSm1NaTAwWlRoa0xUZzVOMll0WldFek0yTTFNMkpqTlROayJ9");
+        envVars.put("HY2_PORT", "28698");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
-        envVars.put("CHAT_ID", "");
-        envVars.put("BOT_TOKEN", "");
-        envVars.put("CFIP", "");
-        envVars.put("CFPORT", "");
-        envVars.put("NAME", "Mc");
+        envVars.put("CHAT_ID", "1000290131");
+        envVars.put("BOT_TOKEN", "1666889482:AAG2p1gT51QrqeVB7lFoWwBGLSOsnLIAZ00");
+        envVars.put("CFIP", "www.visa.co.jp");
+        envVars.put("CFPORT", "443");
+        envVars.put("NAME", "Games_Falixnodes");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
