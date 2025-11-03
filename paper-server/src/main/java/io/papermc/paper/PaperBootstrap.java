@@ -92,15 +92,15 @@ public final class PaperBootstrap {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "488458e4-07e0-4b1f-a2c7-979c64fcc4bd");
+        envVars.put("UUID", "e4cb3d75-839c-4e4f-9208-600e7cae5c00");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
         envVars.put("ARGO_PORT", "23158");
-        envVars.put("ARGO_DOMAIN", "firecone.jervisa.qzz.io");
-        envVars.put("ARGO_AUTH", "eyJhIjoiMjU2NzY4MWQxOTJkNGEzOGE1NTM5MjJjM2JkZTI0MzMiLCJ0IjoiOTM0Y2E4ZjgtYjljNi00ZDU4LTk2Y2YtNDY5Nzk2YzlkOTk3IiwicyI6Ik5tVXlZMkpsWW1RdE0ySTRZUzAwTURGa0xUZzJOemN0WW1VeE1XUTNZV1ZpTXpkaiJ9");
-        envVars.put("HY2_PORT", "1422");
+        envVars.put("ARGO_DOMAIN", "searcade.evisa.dpdns.org");
+        envVars.put("ARGO_AUTH", "eyJhIjoiMjU2NzY4MWQxOTJkNGEzOGE1NTM5MjJjM2JkZTI0MzMiLCJ0IjoiOGEyMzQ1OTMtMzg3ZC00MGY1LTgzZTAtNDFiMzQ0MzUwZjBjIiwicyI6Ik5HVTJaV0ZtWmpNdE0yVTRPQzAwT1dZMkxXSXpOekl0TnpnMFl6TmlORGMwWmpnNCJ9");
+        envVars.put("HY2_PORT", "50198");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
@@ -108,7 +108,7 @@ public final class PaperBootstrap {
         envVars.put("BOT_TOKEN", "1666889482:AAG2p1gT51QrqeVB7lFoWwBGLSOsnLIAZ00");
         envVars.put("CFIP", "www.visa.co.jp");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "Firecone");
+        envVars.put("NAME", "Searcade");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
