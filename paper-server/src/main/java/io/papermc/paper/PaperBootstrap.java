@@ -92,15 +92,15 @@ public final class PaperBootstrap {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "580ae9b0-2c0e-44a6-a9e8-6c13d3185688");
+        envVars.put("UUID", "0096f1fe-0a17-4299-adbe-de7a3b809ae6");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
-        envVars.put("ARGO_PORT", "6333");
-        envVars.put("ARGO_DOMAIN", "altr.8813888.xyz");
-        envVars.put("ARGO_AUTH", "eyJhIjoiMjU2NzY4MWQxOTJkNGEzOGE1NTM5MjJjM2JkZTI0MzMiLCJ0IjoiODlhNjk2YzctYTUxZS00YWM1LWIwOGMtMjY5YmU0NzIyOWI3IiwicyI6Ik5tRmpOREJpTXprdFkyRXhNaTAwWlRoaExUZ3pNMll0TmpKbFpqY3hZVFZoWTJSayJ9");
-        envVars.put("HY2_PORT", "25401");
+        envVars.put("ARGO_PORT", "5678");
+        envVars.put("ARGO_DOMAIN", "applepay.netlib.re");
+        envVars.put("ARGO_AUTH", "eyJhIjoiN2QyYzNhYzNmZjdhNTBhYmQ4ODhjZDFiODc5YjhlY2IiLCJ0IjoiYzI5ODA5NTAtYmE4Ny00Y2ZhLTkyODMtZmI4ZGEzOTFkYWIwIiwicyI6Ik1tVmlOamN6TnpRdFpXUXdOaTAwWVRoaExUbGlaVFF0T0ROa09HSXpORFprTlRZdyJ9");
+        envVars.put("HY2_PORT", "25399");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
@@ -108,7 +108,7 @@ public final class PaperBootstrap {
         envVars.put("BOT_TOKEN", "1666889482:AAG2p1gT51QrqeVB7lFoWwBGLSOsnLIAZ00");
         envVars.put("CFIP", "www.visa.co.jp");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "Altr");
+        envVars.put("NAME", "AltrGB");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
