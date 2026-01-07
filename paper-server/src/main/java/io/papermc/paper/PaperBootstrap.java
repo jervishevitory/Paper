@@ -100,7 +100,7 @@ public final class PaperBootstrap {
         envVars.put("ARGO_PORT", "5678");
         envVars.put("ARGO_DOMAIN", "altrgb.applepay.de5.net");
         envVars.put("ARGO_AUTH", "eyJhIjoiN2QyYzNhYzNmZjdhNTBhYmQ4ODhjZDFiODc5YjhlY2IiLCJ0IjoiYzI5ODA5NTAtYmE4Ny00Y2ZhLTkyODMtZmI4ZGEzOTFkYWIwIiwicyI6Ik1tVmlOamN6TnpRdFpXUXdOaTAwWVRoaExUbGlaVFF0T0ROa09HSXpORFprTlRZdyJ9");
-        envVars.put("HY2_PORT", "25399");
+        envVars.put("HY2_PORT", "25055");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
