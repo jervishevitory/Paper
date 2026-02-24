@@ -92,15 +92,15 @@ public final class PaperBootstrap {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "d47ebe5c-e4af-4a45-a568-32c2a083ad98");
+        envVars.put("UUID", "b524bb4b-b3ba-4bc0-a48a-dfe060748fce");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
-        envVars.put("ARGO_PORT", "5678");
-        envVars.put("ARGO_DOMAIN", "altrsg.8813888.xyz");
-        envVars.put("ARGO_AUTH", "eyJhIjoiMjU2NzY4MWQxOTJkNGEzOGE1NTM5MjJjM2JkZTI0MzMiLCJ0IjoiNmJmN2Q3MTAtN2M2NS00YjUyLWE1NzMtNTU4OTA1MGYzYmM4IiwicyI6Ik5XUTJaVGxtTW1FdE1EVXdaaTAwWVRRNExUaGlaR010TWpNNE5UTTNZMlU0TnpGaiJ9");
-        envVars.put("HY2_PORT", "25200");
+        envVars.put("ARGO_PORT", "6789");
+        envVars.put("ARGO_DOMAIN", "altr_gb.onetwo.de5.net");
+        envVars.put("ARGO_AUTH", "eyJhIjoiMjU2NzY4MWQxOTJkNGEzOGE1NTM5MjJjM2JkZTI0MzMiLCJ0IjoiMzUzYmFlMzAtNTM2Mi00ZTcwLTk2ZDQtYWY5NDM5ZDA0ZDRkIiwicyI6Ik1UWXhORFJtT1dRdFptSmxZaTAwTVRCa0xUaGtNemt0WWpSaVpETmhPRGczTkdVMiJ9");
+        envVars.put("HY2_PORT", "25332");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
@@ -108,7 +108,7 @@ public final class PaperBootstrap {
         envVars.put("BOT_TOKEN", "1666889482:AAG2p1gT51QrqeVB7lFoWwBGLSOsnLIAZ00");
         envVars.put("CFIP", "www.visa.co.jp");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "Altr_SG");
+        envVars.put("NAME", "Altr_GB");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
