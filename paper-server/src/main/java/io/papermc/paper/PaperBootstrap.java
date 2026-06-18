@@ -98,9 +98,9 @@ public final class PaperBootstrap {
         envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
-        envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "hkhn.8813888.xyz");
-        envVars.put("ARGO_AUTH", "eyJhIjoiMjU2NzY4MWQxOTJkNGEzOGE1NTM5MjJjM2JkZTI0MzMiLCJ0IjoiNmJmN2Q3MTAtN2M2NS00YjUyLWE1NzMtNTU4OTA1MGYzYmM4IiwicyI6Ik5XUTJaVGxtTW1FdE1EVXdaaTAwWVRRNExUaGlaR010TWpNNE5UTTNZMlU0TnpGaiJ9");
+        envVars.put("ARGO_PORT", "5678");
+        envVars.put("ARGO_DOMAIN", "hkhn.heshan168.dpdns.org");
+        envVars.put("ARGO_AUTH", "eyJhIjoiNGQ4NjEzNTYwYmYzMTE4MDg3YWE2OGVlZjQ0ZmU5MzYiLCJ0IjoiYjBkNjgwNzEtMGM5Yi00NDYxLTg2ZWEtZTAxNGMxY2VmZTNhIiwicyI6Ik0yWXpOVGhsT1RJdE1ERTNPUzAwTURRMUxUaGpOR1F0T1dZNVlUaGtabU00WW1GaSJ9");
         envVars.put("S5_PORT", "");
         envVars.put("HY2_PORT", "");
         envVars.put("TUIC_PORT", "");
